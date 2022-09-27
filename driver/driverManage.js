@@ -8,7 +8,7 @@ class DriverManager {
     }
 
     getMainName() {
-        return 'Main Name';
+        return 'Main Name Name Name';
     }
 }
 
