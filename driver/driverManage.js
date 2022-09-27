@@ -7,6 +7,9 @@ class DriverManager {
         return driver
     }
 
+    getMainName() {
+        return 'Main Name';
+    }
 }
 
 module.exports = DriverManager
