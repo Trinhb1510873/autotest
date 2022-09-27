@@ -25,6 +25,10 @@ class LoginHahaloloPage {
         const loginBtn = await this.driver.wait(until.elementLocated({ id: 'login-button'}))
         await loginBtn.sendKeys(pwd)
     }
+
+    async hello() {
+        return 'Hello'
+    }
 }
 
 module.exports = LoginHahaloloPage
