@@ -17,4 +17,9 @@ describe('Login', function () {
         await loginHaloPage.loginHalo(username, pwd)
 
     });
+
+    it('Login hahalolo success', async function () {
+        await loginHaloPage.loginHalo(username, pwd)
+
+    });
 });
