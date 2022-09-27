@@ -14,6 +14,10 @@ class DriverManager {
     getMainName() {
         return 'Main Name';
     }
+
+    getAttribute() {
+        return 'Attribute'
+    }
 }
 
 module.exports = DriverManager
