@@ -7,11 +7,13 @@ class DriverManager {
         return driver
     }
 
-
     getName() {
         return 'name tesst';
     }
 
+    getMainName() {
+        return 'Main Name';
+    }
 }
 
 module.exports = DriverManager
