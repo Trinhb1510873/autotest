@@ -18,6 +18,10 @@ class DriverManager {
     getAttribute() {
         return 'Attribute'
     }
+
+    getValue() {
+        return 'Value'
+    }
 }
 
 module.exports = DriverManager
